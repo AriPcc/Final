@@ -87,7 +87,6 @@ void welcome() {
    cout << "Welcome to the Big Stepper Tracker. Please be entirely honest." << endl;
 }
 
-// Define core functions
 // Name:    getInput
 // Desc:    This function gets the number of miles the user wants to walk in a
 //          week.
@@ -99,7 +98,6 @@ void getInput(int& goal) {
    cin >> goal;
 }
 
-// Define core functions
 // Name:    calcTotal()
 // Desc:    This function gets the number of miles walked in a week, one day at
 //          a time.
